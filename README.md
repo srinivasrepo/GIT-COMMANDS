@@ -1,2 +1,2 @@
 # tusk
-my first practice with github
+my first practice with github repo
