@@ -1,11 +1,11 @@
 # prac
 my first practice with github repo
 
-install: git-scm
-open: git bash
-check: git --version
-for list items: ls
-create new file in local repo : touch file-name
+install: git-scm , 
+open: git bash, 
+check: git --version, 
+for list items: ls, 
+create new file in local repo : touch file-name, 
 
 STEP 1 (cofigure your credentials in local machine for the first time )
 git config --global user.name "USER NAME"
