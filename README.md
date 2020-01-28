@@ -30,3 +30,10 @@ git commit -m "message-here"
 
 STEP 7 ( push local repo as master branch, -u for update)
 git push -u origin master
+
+
+STEPS TO CLONE REMOTE GITHUB REPO
+STEP 1 (only one single step)
+git clone git-hub-https-address
+
+
