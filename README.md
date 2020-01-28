@@ -8,7 +8,7 @@ for list items: ls,
 create new file in local repo : touch file-name, 
 
 STEP 1 (cofigure your credentials in local machine for the first time )
-git config --global user.name "USER NAME"
+git config --global user.name "user name"
 to check username : git config user.name
 
 STEP 2 (cofigure your credentials in local machine for the first time )
