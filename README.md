@@ -19,7 +19,7 @@ STEP 3 (Initialize the folder of the project i.e it creates ".git" hidden folder
 git init 
 
 STEP 4 (to add or add all files and folders i.e getting the files ready)
-git add file-name or git add. 
+git add file-name or git add . 
 
 STEP 5 (set origin to remote repository)
 git remote add origin http-link-address-from-git-repository 
