@@ -7,6 +7,7 @@ check: git --version,
 for list items: ls, 
 create new file in local repo : touch file-name, 
 
+STEPS TO ADD LOCAL REPO TO REMOTE GITHUB REPO
 STEP 1 (cofigure your credentials in local machine for the first time )
 git config --global user.name "user name" 
 to check username : git config user.name 
