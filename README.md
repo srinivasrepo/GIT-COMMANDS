@@ -3,12 +3,22 @@ GIT COMMANDS
 
 install: git-scm , 
 open: git bash, 
-check: git --version, 
-for list items: ls, 
-create new file in local repo : touch file-name, 
-to sow git commit changes or log data : git log,
-to add file : git add file-name or git add .
-to remove file : git rm file-name or git rm .
+git --version : check , 
+ls : for list items , 
+touch file-name :create new file in local repo , 
+git log : to show git all commits changes or log data ,
+git add file-name or git add . : (to add file or add all) , 
+git rm file-name or git rm . : (to remove file or all) ,
+git push : (to push your latest changes from local repo to remote repo) ,
+git pull : (to pull or get latest changes from remote repo to local repo) ,
+git branch : (to list all your branches),
+git checkout branch-name : (to create and switch to branch by a single command) , 
+git checkout master : (to get back to master branch ),
+git stash : (save changes that you dont want to commit immediately), 
+git merge branch-name : (to merge branch with master),
+git reset or git reset --hard first-five-letters-of-commit-id: (to reset i.ego back to before the commit permanently),
+git remote : (to check what remote source you have),
+
 
 
 
@@ -37,7 +47,7 @@ STEP 7 ( push local repo as master branch, -u for update)
 git push -u origin master
 
 
-STEPS TO CLONE REMOTE GITHUB REPO
+STEPS TO CLONE REMOTE GITHUB REPO INTO OUR LOCAL REPO
 STEP 1 (only one single step)
 git clone git-hub-https-address
 
