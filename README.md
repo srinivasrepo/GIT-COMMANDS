@@ -1,11 +1,16 @@
 # prac
-my first practice with github repo
+GIT COMMANDS
 
 install: git-scm , 
 open: git bash, 
 check: git --version, 
 for list items: ls, 
 create new file in local repo : touch file-name, 
+to sow git commit changes or log data : git log,
+to add file : git add file-name or git add .
+to remove file : git rm file-name or git rm .
+
+
 
 STEPS TO ADD LOCAL REPO TO REMOTE GITHUB REPO
 STEP 1 (cofigure your credentials in local machine for the first time )
