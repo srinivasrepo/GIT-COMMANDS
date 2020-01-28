@@ -18,6 +18,14 @@ git stash : (save changes that you dont want to commit immediately),
 git merge branch-name : (to merge branch with master),
 git reset or git reset --hard first-five-letters-of-commit-id: (to reset i.ego back to before the commit permanently),
 git remote : (to check what remote source you have),
+git status : ( to show what files have changed in local repository while comparing it to the remote repository )
+git diff : ( to show the changed files changed text i.e (git status files) the changed files changed text in green color while comporing            to past text in red color )
+
+
+
+
+
+
 
 
 
