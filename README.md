@@ -92,9 +92,22 @@ git push -u origin master
 //////////////////////////////////////////////////////////
 STEPS TO UPDATE LOCAL REPO FROM CHANGED GITHUB REMOTE REPO
 /////////////////////////////////////////////////////////
-git pull
+(only git origin master will not work because local repo is going to overrideby merge)
 
+STEP 1 ( save changes that you dont want to commit immediately, moniter this all the time )
+git status
 
+STEP 2
+git stash save "some-title-here"
+
+STEP 3
+git stash list
+
+STEP 4
+git pull origin master
+
+STEP 5
+git stash drop
 
 
 
