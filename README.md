@@ -82,8 +82,11 @@ git add file-name-with-path
 STEP 4 ( commit with -m message)  
 git commit -m "message-here"
 
+STEP 5 ( check the remote url)
+git remote -v
 
-
+STEP 6 ( now push stagged files)
+git push -u origin master
 
 
 //////////////////////////////////////////////////////////
