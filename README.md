@@ -18,7 +18,7 @@ git checkout branch-name : (to create and switch to branch by a single command i
 git checkout master : (to get back to master branch ),
 git stash : (save changes that you dont want to commit immediately), 
 git merge branch-name : (to merge branch with master),
-git reset or git reset --hard first-five-letters-of-commit-id: (to reset back to before the commit permanently i.e alter existing                                                                      history),
+git reset or git reset --hard first-five-letters-of-commit-id: (to reset back to before the commit permanently i.e alter existing history),
 git revert : ( creates the new commit that undoes the previous commit  i.e adds new history, it doesn't modify existing history Eg: git revert HEAD~2)
 git remote : (to check what remote source you are in i.e origin or branch),
 git remote -v  : (to check git url)
