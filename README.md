@@ -35,24 +35,26 @@ git diff : ( to show the changed files changed text i.e (git status files) the c
 STEPS TO ADD LOCAL REPO TO GITHUB REMOTE REPO
 ////////////////////////////////////////////
 STEP 1 (cofigure your credentials in local machine for the first time )
-git config --global user.name "user name" 
-to check username : git config user.name 
+git config --global user.name "user name"
+to check username : 
+git config user.name
 
 STEP 2 (cofigure your credentials in local machine for the first time )
 git config --global user.email "emailaddress@gmail.com" 
-to check user email : git config user.email 
+to check user email : 
+git config user.email
 
 STEP 3 (Initialize the folder of the project i.e it creates ".git" hidden folder)
-git init 
+git init
 
-STEP 4 (to pull initial files if you created the project directly in Github for the 1st time)
+STEP 4 (set origin to remote repository)
+git remote add origin http-link-address-from-git-repository
+
+STEP 5 (to pull initial files if you created the project directly in Github for the 1st time)
 git pull origin master
 
-STEP 5 (to add or add all files and folders i.e getting the files ready)
-git add file-name or git add . 
-
-STEP 6 (set origin to remote repository)
-git remote add origin http-link-address-from-git-repository 
+STEP 6 (to add or add all files and folders i.e getting the files ready)
+git add file-name or git add .
 
 STEP 7 ( commit message if something opens then :wq)
 git commit -m "message-here"
@@ -88,7 +90,7 @@ STEP 4 ( commit with -m message)
 git commit -m "message-here"
 
 STEP 5 ( check the remote url, if not: git remote rm origin & git remote add origin url-of-repo )
-git remote -v 
+git remote -v
 
 STEP 6 ( now push stagged files)
 git push -u origin master
