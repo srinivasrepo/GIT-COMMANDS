@@ -1,8 +1,9 @@
 # prac
-
+<pre>
 /////////////
 GIT COMMANDS
 ////////////
+
 install: git-scm , 
 open: git bash, 
 git --version : check , 
@@ -113,7 +114,7 @@ git stash drop
 
 
 
-
+</pre>
 
 
 
