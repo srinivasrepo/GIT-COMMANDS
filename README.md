@@ -54,7 +54,8 @@ STEP 5 (to pull initial files if you created the project directly in Github for 
 git pull origin master
 
 STEP 6 (to add or add all files and folders i.e getting the files ready)
-git add file-name or git add .
+git add .
+git add file-name
 
 STEP 7 ( commit message if something opens then :wq)
 git commit -m "message-here"
