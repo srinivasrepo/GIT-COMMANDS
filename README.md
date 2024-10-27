@@ -50,8 +50,10 @@ git init
 STEP 4 (set origin to remote repository)
 git remote add origin http-link-address-from-git-repository
 
-STEP 5 (to pull initial files if you created the project directly in Github for the 1st time)
+STEP 5 (to pull initial files if you created the project directly in GitHub for the 1st time)
 git pull origin master
+Similarly to pull the development branch changes to checked-out feature branch using
+git pull origin development
 
 STEP 6 (to add or add all files and folders i.e getting the files ready)
 git add .
