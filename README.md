@@ -54,6 +54,8 @@ STEP 5 (to pull initial files if you created the project directly in GitHub for 
 git pull origin master
 Similarly to pull the development branch changes to checked-out feature branch using
 git pull origin development
+And if restricted the use --allow-unrelated-histories
+git pull origin master --allow-unrelated-histories
 
 STEP 6 (to add or add all files and folders i.e getting the files ready)
 git add .
